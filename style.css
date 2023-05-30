@@ -165,9 +165,10 @@ nav ul li a:hover::after{
 }
 
 .services-list div{
-    background: #262626;
+    background: #0E0E29;
     padding: 40px;
     font-size: 13px;
+    border: 1px solid white;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
@@ -319,17 +320,24 @@ nav ul li a:hover::after{
 
 .contact-right form{
     width: 100%;
+    color: white;
 }
+::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+  }
 form input, form textarea{
     width: 100%;
     border: 0;
+    /* color: white; */
     outline: none;
-    background: #262626;
+    background: #0E0E29;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
+    border: 1px solid white;
 }
 form .btn2{
     padding: 14px 60px;
@@ -343,7 +351,7 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 2px 0;
-    background: #262626;
+    background: #0E0E29;
     font-weight: 200;
     margin-top: 10px;
 }
