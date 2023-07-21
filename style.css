@@ -388,7 +388,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background-image: linear-gradient(to right top, #670000, #700001, #790002, #830003, #8c0103, #970c0b, #a31612, #ae1e19, #be2d28, #ce3c38, #de4947, #ee5757);
         position: fixed;
         top: 0;
         right: -200px;
@@ -396,18 +396,21 @@ nav .fas{
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
-        transition: right 0.5s;
+        transition: right 1s;
+        border-radius: 10px;
 
     }
     nav ul li{
         display: block;
         margin: 25px;
+        
     }
     nav ul .fas{
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
+        
     }
 
     /* -----------for about media query */
